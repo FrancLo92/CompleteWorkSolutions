@@ -1,0 +1,86 @@
+/* DISPLAY MAIN NAV IN GENERAL PAGES */
+#mainNav{
+	display:block;	
+	}
+	
+/* IMAGE */
+#sectionImg{
+	display:none;
+}
+
+/* CONTACT INFO TEXT FOR CONTACT US PAGE */
+#sectionTxt{
+	width:100%;
+	float:left;
+	text-align:left;
+	box-sizing:border-box;
+	display:flex;
+}
+
+/* CONTACT INFO TEXT FOR CONTACT US PAGE */
+#sectionTxt p{
+	padding:20px;
+}
+
+
+/* RIGHT NAVIGATION */
+#right_nav{
+	margin-top:80px;
+}
+
+/* MAIN CONTENT JOBS AND PROJECTS PAGE */
+#projects{
+	width:100%;
+	float:left;
+}
+
+/* IPAD/ IPHONE VIEW view ------------------------------*/
+@media only screen and (max-width: 1024px) {	
+	
+
+	
+	
+	/* MAIN SECTION MARGIN FOR FIXED TOP NAV */
+	#main_section{
+		margin-top:70px;
+	}
+	
+	#sectionTxt{
+		text-align:center;		
+	}
+	
+	#right_nav{
+	margin-top:0px;
+	}
+	
+	#sectionTxt p{
+	padding:0px;
+	}
+	
+	/* IMAGE IN CONTACT US TEXT PARAGRAPH */
+	#inner_contactus_image{
+		display:none;
+	}
+	
+	
+		
+	/* CUSTOM PROJECT SLIDER  */
+
+	#projects{
+	width:100%;
+	float:left;
+	}
+	
+	.slider_container {
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	margin:0 auto;  
+	}
+
+}
+
+
+
+
+
