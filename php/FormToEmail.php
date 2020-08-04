@@ -35,7 +35,7 @@ Show sender's IP address
 Block IP addresses
 Block web addresses or rude words
 Block gibberish (MldMtrPAgZq etc)
-Block gobbledegook characters (ล ๐ ็ etc)
+Block gobbledegook characters (ร… รฐ รง etc)
 Pre-populate the form
 Show errors on the form page
 Check for a set cookie
@@ -98,7 +98,9 @@ Enter the email address below to send the contents of the form to.  You can ente
 
 */
 
-$my_email = "francesco.lopez92@hotmail.com";
+
+
+$my_email = "";
 
 /*
 
